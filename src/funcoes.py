@@ -187,8 +187,9 @@ def solicitar_peso() -> float:
     return peso_aluno
 
 def solicitar_altura() -> float:
-    altura_aluno: float = float(input("Digite a altura do aluno:"))
+    altura_aluno: float = float(input("Digite a altura do aluno: "))
     return altura_aluno
+
 
 def dados_aluno():
     nome: str = solicitar_nome_aluno()
@@ -221,3 +222,6 @@ def dados_aluno():
         print("Classificação: Obesidade Grau II, IMC: " + str(imc))
     else:
         print("Classificação: Obesidade Grau III, IMC: " + str(imc))
+
+
+    
